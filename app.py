@@ -25,7 +25,7 @@ from tensorflow import keras
 # Config
 # -----------------------------
 APP_TITLE = "CNN Digits Detector"
-MODEL_FILENAME = "mnist_cnn_albu.keras"
+MODEL_FILENAME = "models/mnist_cnn_albu.keras"
 CANVAS_SIZE = 520            # Larger drawing area
 DEFAULT_BRUSH_SIZE = 6       # Thinner default stroke
 BRUSH_COLOR = "#000000"      # Black

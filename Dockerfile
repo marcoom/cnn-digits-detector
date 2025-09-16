@@ -13,7 +13,7 @@ COPY requirements.txt .
 RUN python -m pip install --upgrade pip && pip install -r requirements.txt
 
 COPY app.py .
-COPY models/mnist_cnn_albu.keras /app/mnist_cnn_albu.keras
+COPY models/mnist_cnn_albu.keras /app/models/mnist_cnn_albu.keras
 
 EXPOSE 7860
 
