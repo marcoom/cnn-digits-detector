@@ -172,6 +172,7 @@ To reproduce or extend the model:
 │   └── mnist_cnn_albu.keras       # Pretrained model (ready to run)
 ├── notebooks/
 │   └── digits_detector_cnn_training.ipynb  # Training & export pipeline
+│   └── alternative_training_pytorch.ipynb # Training implementation using PyTorch (demo)
 ├── README.md
 └── requirements.txt               # Python dependencies (pinned for Python 3.12)
 ```
